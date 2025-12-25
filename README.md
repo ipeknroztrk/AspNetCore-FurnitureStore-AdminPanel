@@ -1,28 +1,86 @@
-ASP.NET MVC Dinamik Admin Panelli Mobilya Mağazası
-Bu proje, ASP.NET Core 6.0 kullanılarak geliştirilmiş dinamik bir yönetim paneline sahip mobilya mağazası uygulamasıdır. AcunMedyaFurnitureProject, mobilya envanterini yönetmek, sipariş süreçlerini izlemek ve müşteri bilgilerini düzenlemek için kapsamlı bir web uygulamasıdır.
+🛋️ ASP.NET Core Dinamik Admin Panelli Mobilya Mağazası
 
-Kullanılan Teknolojiler ve Araçlar
-Bu proje aşağıdaki teknolojiler ve araçlarla geliştirilmiştir:
+Bu proje, ASP.NET Core 6.0 kullanılarak geliştirilmiş, dinamik yönetim paneline sahip bir mobilya mağazası web uygulamasıdır.
+Amaç; ürün, sipariş ve müşteri yönetimini tek bir admin paneli üzerinden kontrol edebilmektir.
 
-ASP.NET Core 6.0: Modern web uygulamaları oluşturmak için kullanılan güncel bir framework.
-Entity Framework Core: Veritabanı işlemleri için güçlü ve esnek bir ORM (Object-Relational Mapping) aracı.
+🧠 Kullanılan Teknolojiler
+🏗 Backend
+
+ASP.NET Core 6.0 (MVC)
+
+Entity Framework Core
+
+Code-First Yaklaşımı
+
+ASP.NET Core Identity (Authentication & Authorization)
+
+LINQ
+
+Repository Mantığı
+
+Validation Yapıları
+
+🗄 Veritabanı
+
 PostgreSQL
-Bootstrapt
-ASP.NET Core Identity
-LINQ (Language Integrated Query)
-Proje Özellikleri
-Yönetim Paneli
-Ürünleri ekleyip düzenleyebilir ve silebilirsiniz.
-Siparişlerinizi izleyebilir ve yönetebilirsiniz.
-Müşteri bilgilerini görüntüleyip güncelleyebilirsiniz.
-Ürün kategorilerini yönetebilir ve organize edebilirsiniz.
-Kullanıcı Yönetimi
-Kullanıcı kayıt ve giriş işlemlerini yönetebilirsiniz.
-Kullanıcı rolleri ve izinlerini yapılandırabilirsiniz.
-Güvenli oturum açma ve yetkilendirme işlemleri gerçekleştirilir.
-Ürün Yönetimi
-Mobilya ürünleri ile ilgili detaylı yönetim işlemleri sağlar.
-Ürünlerin fiyatlarını, açıklamalarını ve resimlerini güncelleyebilirsiniz.
+
+🎨 Frontend
+
+Razor View Engine
+
+Bootstrap
+
+HTML5 / CSS3 / JavaScript
+
+Partial Views & Layout Yapısı
+
+🧩 Mimari Yaklaşım
+
+N-Katmanlı Mimari
+
+Modern Web Standards
+
+Clean & Maintainable Code
+
+📌 Proje Özeti
+
+Bu sistem, mobilya mağazalarında kullanılan gerçek hayata yakın bir yönetim paneli sunar.
+Admin paneli üzerinden;
+
+🛋 Ürün Yönetimi
+
+📦 Sipariş Yönetimi
+
+👥 Müşteri Yönetimi
+
+🏷 Kategori Yönetimi
+
+🔐 Kullanıcı ve Rol Yönetimi
+
+işlemleri yapılabilir.
+
+🎯 Özellikler
+🔐 Kullanıcı Yönetimi
+
+✔ Kullanıcı kayıt & login
+✔ Identity tabanlı authentication
+✔ Rol bazlı yetkilendirme
+
+🛋 Ürün Yönetimi
+
+✔ Ürün ekleme / güncelleme / silme
+✔ Fiyat – açıklama – resim düzenleme
+✔ Kategori bazlı ürün yönetimi
+
+📦 Sipariş Yönetimi
+
+✔ Sipariş oluşturma / izleme
+✔ Sipariş durum yönetimi
+
+👥 Müşteri Yönetimi
+
+✔ Müşteri bilgi görüntüleme
+✔ Bilgi güncelleme
 <img width="1423" alt="Ekran Resmi 2024-07-23 11 01 20" src="https://github.com/user-attachments/assets/9364a1c5-16a7-40d5-897c-e6a2e5c06a64">
 <img width="1423" alt="Ekran Resmi 2024-07-23 11 01 28" src="https://github.com/user-attachments/assets/a52c8646-cbd1-499d-8248-22dda709948a">
 <img width="1423" alt="Ekran Resmi 2024-07-23 11 01 36" src="https://github.com/user-attachments/assets/abd08011-b1e5-48d6-977b-5c92632e2497">
